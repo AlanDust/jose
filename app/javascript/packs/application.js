@@ -6,7 +6,7 @@ import App from '../react/components/app'
 import RedBox from 'redbox-react'
 
 document.addEventListener('DOMContentLoaded', () => {
-  let reactElement = document.getElementById('app')
+  let reactElement = document.getElementById('App')
 
   if (reactElement) {
     if(window.railsEnv && window.railsEnv === 'development'){
