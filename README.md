@@ -1,24 +1,3 @@
-# README
+This is a website for Jose Maria De Andres Flores' trip to USA in January of 2019.  
+It is simply a picture website where we can upload pictures of his trip and eventually delete them if he wants to.  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
