@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+dayone_one = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.1.jpg", title: "", description: ""})
+dayone_two = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.2.jpg", title: "", description: ""})
+dayone_three = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.3.jpg", title: "", description: ""})

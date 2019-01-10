@@ -11,6 +11,6 @@ Rails.application.routes.draw do
   end
 
   get '/', to: 'homes#index'
-  get '/dayone' to: 'homes#index'
-  get '/daytwo' to: 'homes#index'
+  get '/dayone', to: 'homes#index'
+  get '/daytwo', to: 'homes#index'
 end
