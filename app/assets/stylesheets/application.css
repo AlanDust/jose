@@ -15,3 +15,10 @@
  *= require foundation_and_overrides
 
  */
+
+ body {
+   background-image: url('https://s3.amazonaws.com/patri-website/JoseMaria/Animated+Flag.gif');
+   background-repeat: repeat;
+   background-size: cover;
+
+ }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DayoneTile = props => {
+const DaytwoTile = props => {
 
   return(
     <div>
@@ -12,4 +12,4 @@ const DayoneTile = props => {
   )
 }
 
-export default DayoneTile;
+export default DaytwoTile;

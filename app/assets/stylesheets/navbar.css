@@ -1,0 +1,31 @@
+.navbar-link {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.right-links {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.5vw;
+}
+
+.left-name {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.navbar-name {
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.navbar-description {
+  font-size: 1rem;
+}
+
+.top-bar-full {
+  margin: 0px;
+  background-color: white;
+}
