@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import DayoneTile from '../components/DayoneTile'
+import DaytwoTile from '../components/DaytwoTile'
 
-class DayoneContainer extends Component {
+class DaytwoContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +11,7 @@ class DayoneContainer extends Component {
   }
 
   componentDidMount() {
-    fetch(`/api/v1/dayone`)
+    fetch(`/api/v1/daytwo`)
     .then(response => {
       if (response.ok) {
         return response;
@@ -32,9 +32,9 @@ class DayoneContainer extends Component {
 
   render() {
 
-    let dayoneTiles = this.state.pictureArray.map(picture => {
+    let daytwoTiles = this.state.pictureArray.map(picture => {
       return(
-        <DayoneTile
+        <DaytwoTile
           key={picture.id}
           id={picture.id}
           title={picture.title}
@@ -60,7 +60,7 @@ class DayoneContainer extends Component {
           </div>
         </ul>
         <div className="large-12 medium-12 small-12 column">
-          {dayoneTiles}
+          {daytwoTiles}
         </div>
       </div>
 
@@ -68,4 +68,4 @@ class DayoneContainer extends Component {
   }
 }
 
-export default DayoneContainer;
+export default DaytwoContainer;

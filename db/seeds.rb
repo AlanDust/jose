@@ -10,3 +10,8 @@
 dayone_one = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.1.jpg", title: "", description: ""})
 dayone_two = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.2.jpg", title: "", description: ""})
 dayone_three = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.3.jpg", title: "", description: ""})
+
+daytwo_one = Daytwo.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/daytwo/2.1.jpg", title: "", description: ""})
+daytwo_two = Daytwo.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/daytwo/2.2.jpg", title: "", description: ""})
+daytwo_three = Daytwo.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/daytwo/2.3.jpg", title: "", description: ""})
+daytwo_four = Daytwo.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/daytwo/2.4.jpg", title: "", description: ""})
