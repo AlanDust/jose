@@ -7,10 +7,12 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :dayone, only: [:index, :create, :show]
       resources :daytwo, only: [:index, :create, :show]
+      resources :daythree, only: [:index, :create, :show]
     end
   end
 
   get '/', to: 'homes#index'
   get '/dayone', to: 'homes#index'
   get '/daytwo', to: 'homes#index'
+  get '/daythree', to: 'homes#index'
 end

@@ -4,6 +4,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import Homepage from './Homepage';
 import DayoneContainer from'./DayoneContainer';
 import DaytwoContainer from'./DaytwoContainer';
+import DaythreeContainer from'./DaythreeContainer';
 
 const App = (props) => {
   return (
@@ -13,6 +14,7 @@ const App = (props) => {
         <IndexRoute component={Homepage} />
         <Route path='/dayone' component={DayoneContainer} />
         <Route path='/daytwo' component={DaytwoContainer} />
+        <Route path='/daythree' component={DaythreeContainer} />
       </Route>
     </Router>
   )

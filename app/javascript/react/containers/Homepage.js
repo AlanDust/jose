@@ -18,6 +18,7 @@ const Homepage = props => {
                 <Link to={'/'} className="navbar-link">Home </Link>
                 <Link to={'/dayone'} className="navbar-link">1/9</Link>
                 <Link to={'/daytwo'} className="navbar-link">1/10</Link>
+                <Link to={'/daythree'} className="navbar-link">1/11</Link>
 
               </div>
             </div>
