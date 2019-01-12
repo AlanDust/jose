@@ -8,7 +8,7 @@ class Api::V1::DaytwoController < ApplicationController
   def create
     new_dayone = Daytwo.new(daytwo_params)
 
-    if new_dayone.save
+    if new_daytwo.save
       render json: new_daytwo
     else
       render json: { errors: new_daytwo.errors.full_messages }, status: :unprocessable_entity
