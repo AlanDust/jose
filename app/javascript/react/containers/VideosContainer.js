@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import DayoneTile from '../components/DayoneTile'
+import VideoTile from '../components/VideoTile'
 
-class DayoneContainer extends Component {
+class VideosContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      pictureArray: []
+      videoArray: []
     }
   }
 
   componentDidMount() {
-    fetch(`/api/v1/dayone`)
+    fetch(`/api/v1/video`)
     .then(response => {
       if (response.ok) {
         return response;
@@ -24,7 +24,7 @@ class DayoneContainer extends Component {
     .then(response => response.json())
     .then(response => {
       this.setState({
-        pictureArray: response.artwork
+        videoArray: response.artwork
       })
     })
     .catch(error => console.error('Error:', error));
@@ -32,14 +32,14 @@ class DayoneContainer extends Component {
 
   render() {
 
-    let dayoneTiles = this.state.pictureArray.map(picture => {
+    let videoTiles = this.state.videoArray.map(video => {
       return(
-        <DayoneTile
-          key={picture.id}
-          id={picture.id}
-          title={picture.title}
-          picture={picture.picture}
-          description={picture.description}
+        <VideoTile
+          key={video.id}
+          id={video.id}
+          title={video.title}
+          video={video.video}
+          description={video.description}
         />
       )
     })
@@ -65,7 +65,7 @@ class DayoneContainer extends Component {
           </div>
         </ul>
         <div className="large-12 medium-12 small-12 column">
-          {dayoneTiles}
+          {videoTiles}
         </div>
       </div>
 
@@ -73,4 +73,4 @@ class DayoneContainer extends Component {
   }
 }
 
-export default DayoneContainer;
+export default VideosContainer;

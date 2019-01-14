@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      resources :video, only: [:index, :create, :show]
       resources :dayone, only: [:index, :create, :show]
       resources :daytwo, only: [:index, :create, :show]
       resources :daythree, only: [:index, :create, :show]
@@ -14,6 +15,7 @@ Rails.application.routes.draw do
   end
 
   get '/', to: 'homes#index'
+  get '/videos', to: 'homes#index'
   get '/dayone', to: 'homes#index'
   get '/daytwo', to: 'homes#index'
   get '/daythree', to: 'homes#index'
