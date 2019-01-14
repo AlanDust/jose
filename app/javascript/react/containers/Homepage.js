@@ -20,6 +20,8 @@ const Homepage = props => {
                 <Link to={'/daytwo'} className="navbar-link">1/10</Link>
                 <Link to={'/daythree'} className="navbar-link">1/11</Link>
                 <Link to={'/dayfour'} className="navbar-link">1/12</Link>
+                <Link to={'/dayfive'} className="navbar-link">1/13</Link>
+
               </div>
             </div>
           </ul>
