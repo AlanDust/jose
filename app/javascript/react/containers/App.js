@@ -2,6 +2,7 @@ import React from 'react'
 import 'babel-polyfill';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import Homepage from './Homepage';
+import VideosContainer from'./VideosContainer';
 import DayoneContainer from'./DayoneContainer';
 import DaytwoContainer from'./DaytwoContainer';
 import DaythreeContainer from'./DaythreeContainer';
@@ -15,6 +16,7 @@ const App = (props) => {
       <Route path='' component={Homepage} />
       <Route path='/' >
         <IndexRoute component={Homepage} />
+        <Route path='/videos' component={VideosContainer} />
         <Route path='/dayone' component={DayoneContainer} />
         <Route path='/daytwo' component={DaytwoContainer} />
         <Route path='/daythree' component={DaythreeContainer} />
