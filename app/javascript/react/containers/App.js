@@ -6,6 +6,8 @@ import DayoneContainer from'./DayoneContainer';
 import DaytwoContainer from'./DaytwoContainer';
 import DaythreeContainer from'./DaythreeContainer';
 import DayfourContainer from'./DayfourContainer';
+import DayfiveContainer from'./DayfiveContainer';
+
 
 const App = (props) => {
   return (
@@ -17,6 +19,8 @@ const App = (props) => {
         <Route path='/daytwo' component={DaytwoContainer} />
         <Route path='/daythree' component={DaythreeContainer} />
         <Route path='/dayfour' component={DayfourContainer} />
+        <Route path='/dayfive' component={DayfiveContainer} />
+
       </Route>
     </Router>
   )
