@@ -114,3 +114,11 @@ video_ten = Video.create({ video: "https://s3.amazonaws.com/josemaria-triptousa/
 video_eleven = Video.create({ video: "https://s3.amazonaws.com/josemaria-triptousa/videos/11.mp4", title: "", description: ""})
 video_twelve = Video.create({ video: "https://s3.amazonaws.com/josemaria-triptousa/videos/12.mp4", title: "", description: ""})
 video_thirteen = Video.create({ video: "https://s3.amazonaws.com/josemaria-triptousa/videos/13.mp4", title: "", description: ""})
+
+daysix_one = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.1.jpg", title: "", description: ""})
+daysix_two = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.2.jpg", title: "", description: ""})
+daysix_three = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.3.jpg", title: "", description: ""})
+daysix_four = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.4.jpg", title: "", description: ""})
+daysix_five = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.5.jpg", title: "", description: ""})
+daysix_six = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.6.jpg", title: "", description: ""})
+daysix_seven = Daysix.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daysix/6.7.jpg", title: "", description: ""})
