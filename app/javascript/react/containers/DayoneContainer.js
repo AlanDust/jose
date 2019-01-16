@@ -61,6 +61,7 @@ class DayoneContainer extends Component {
               <Link to={'/dayfour'} className="navbar-link">1/12</Link>
               <Link to={'/dayfive'} className="navbar-link">1/13</Link>
               <Link to={'/daysix'} className="navbar-link">1/14</Link>
+              <Link to={'/dayseven'} className="navbar-link">1/15</Link>
 
             </div>
           </div>
