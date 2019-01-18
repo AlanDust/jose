@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       resources :daysix, only: [:index, :create, :show]
       resources :dayseven, only: [:index, :create, :show]
       resources :dayeight, only: [:index, :create, :show]
+      resources :daynine, only: [:index, :create, :show]
 
     end
   end
@@ -28,6 +29,7 @@ Rails.application.routes.draw do
   get '/daysix', to: 'homes#index'
   get '/dayseven', to: 'homes#index'
   get '/dayeight', to: 'homes#index'
+  get '/daynine', to: 'homes#index'
 
 
 end

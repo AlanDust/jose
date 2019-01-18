@@ -63,6 +63,7 @@ class VideosContainer extends Component {
               <Link to={'/daysix'} className="navbar-link">1/14</Link>
               <Link to={'/dayseven'} className="navbar-link">1/15</Link>
               <Link to={'/dayeight'} className="navbar-link">1/16</Link>
+              <Link to={'/daynine'} className="navbar-link">1/17</Link>
             </div>
           </div>
         </ul>
