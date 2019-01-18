@@ -1,12 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-
 dayone_one = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.1.jpg", title: "", description: ""})
 dayone_two = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.2.jpg", title: "", description: ""})
 dayone_three = Dayone.create({ picture: "https://s3.amazonaws.com/patri-website/JoseMaria/dayone/1.3.jpg", title: "", description: ""})
@@ -195,3 +186,38 @@ dayeight_twentyfive = Dayeight.create({ picture: "https://s3.amazonaws.com/josem
 dayeight_twentysix = Dayeight.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/dayeight/8.26.jpg", title: "", description: ""})
 dayeight_twentyseven = Dayeight.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/dayeight/8.27.jpg", title: "", description: ""})
 dayeight_twentyeight = Dayeight.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/dayeight/8.28.jpg", title: "", description: ""})
+
+daynine_1 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.1.jpg", title: "", description: ""})
+daynine_2 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.2.jpg", title: "", description: ""})
+daynine_3 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.3.jpg", title: "", description: ""})
+daynine_4 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.4.jpg", title: "", description: ""})
+daynine_5 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.5.jpg", title: "", description: ""})
+daynine_6 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.6.jpg", title: "", description: ""})
+daynine_7 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.7.jpg", title: "", description: ""})
+daynine_8 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.8.jpg", title: "", description: ""})
+daynine_9 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.9.jpg", title: "", description: ""})
+daynine_10 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.10.jpg", title: "", description: ""})
+daynine_11 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.11.jpg", title: "", description: ""})
+daynine_12 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.12.jpg", title: "", description: ""})
+daynine_13 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.13.jpg", title: "", description: ""})
+daynine_14 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.14.jpg", title: "", description: ""})
+daynine_15 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.15.jpg", title: "", description: ""})
+daynine_16 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.16.jpg", title: "", description: ""})
+daynine_17 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.17.jpg", title: "", description: ""})
+daynine_18 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.18.jpg", title: "", description: ""})
+daynine_19 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.19.jpg", title: "", description: ""})
+daynine_20 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.20.jpg", title: "", description: ""})
+daynine_21 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.21.jpg", title: "", description: ""})
+daynine_22 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.22.jpg", title: "", description: ""})
+daynine_23 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.23.jpg", title: "", description: ""})
+daynine_24 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.24.jpg", title: "", description: ""})
+daynine_25 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.25.jpg", title: "", description: ""})
+daynine_26 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.26.jpg", title: "", description: ""})
+daynine_27 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.27.jpg", title: "", description: ""})
+daynine_28 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.28.jpg", title: "", description: ""})
+daynine_29 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.29.jpg", title: "", description: ""})
+daynine_30 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.30.jpg", title: "", description: ""})
+daynine_31 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.31.jpg", title: "", description: ""})
+daynine_32 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.32.jpg", title: "", description: ""})
+daynine_33 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.33.jpg", title: "", description: ""})
+daynine_34 = Daynine.create({ picture: "https://s3.amazonaws.com/josemaria-triptousa/daynine/9.34.jpg", title: "", description: ""})
